@@ -1,0 +1,48 @@
+CRITICAL - 2023-10-22 03:59:09 --> Invalid file: "UnLugarDeMimos/common/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UnLugarDeMimos/common/head.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('UnLugarDeMimos/common/head', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('UnLugarDeMimos/common/head')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Aplicaciones 5to Semestre\\UnLugarDeMimos.mx\\public\\index.php')
+CRITICAL - 2023-10-22 04:02:50 --> Invalid file: "UnLugarDeMimos/common/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UnLugarDeMimos/common/head.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('UnLugarDeMimos/common/head', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('UnLugarDeMimos/common/head')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Aplicaciones 5to Semestre\\UnLugarDeMimos.mx\\public\\index.php')
+CRITICAL - 2023-10-22 04:10:53 --> Invalid file: "UnLugarDeMimos/admin/inicio.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('UnLugarDeMimos/admin/inicio.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('UnLugarDeMimos/admin/inicio', [], true)
+ 3 APPPATH\Controllers\Admin.php(12): view('UnLugarDeMimos/admin/inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->inicio()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Aplicaciones 5to Semestre\\UnLugarDeMimos.mx\\public\\index.php')
+CRITICAL - 2023-10-22 22:46:21 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Admin/Prueba::mostrarcliente"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Admin/Prueba::mostrarcliente')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('UnLugarDeMimos/admin/vistas/cliente/mostrar')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('UnLugarDeMimos/admin/vistas/cliente/mostrar')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Aplicaciones 5to Semestre\\UnLugarDeMimos.mx\\public\\index.php')
+CRITICAL - 2023-10-22 22:53:37 --> The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\probando/Prueba::mostrarcliente"
+in SYSTEMPATH\Router\Router.php on line 477.
+ 1 SYSTEMPATH\Router\Router.php(477): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\probando/Prueba::mostrarcliente')
+ 2 SYSTEMPATH\Router\Router.php(184): CodeIgniter\Router\Router->checkRoutes('UnLugarDeMimos/admin/vistas/cliente/mostrar')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('UnLugarDeMimos/admin/vistas/cliente/mostrar')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Aplicaciones 5to Semestre\\UnLugarDeMimos.mx\\public\\index.php')
