@@ -23,11 +23,8 @@ class Veterinario extends BaseController
         view('UnLugarDeMimos/admin/common/footeradmin');
     }
     public function agregarveterinario() {
-
         $data['title']= "Agregar Veterinario";
-
         $validation = \Config\Services::validation();
-
             if (strtolower($this->request->getMethod()) === 'get'){
                 //insertamos
                 return
@@ -36,20 +33,17 @@ class Veterinario extends BaseController
                 view('UnLugarDeMimos/admin/vistas/veterinarios/agregar').
                 view('UnLugarDeMimos/admin/common/footeradmin');
             }
-
             $rules =[
                 'nombre' => 'required|max_length[40]',
                 'direccion' => 'required',
                 'telefono' => 'required',
             ];
-
             if (! $this->validate($rules)) {
                 return 
                 view('UnLugarDeMimos/admin/common/headadmin', $data).
                 view('UnLugarDeMimos/admin/common/barraadmin').        
                 view('UnLugarDeMimos/admin/vistas/veterinarios/agregar', ['validation' => $validation]).
-                view('UnLugarDeMimos/admin/common/footeradmin');
-                
+                view('UnLugarDeMimos/admin/common/footeradmin');  
             }
             else {
                 if($this->insertar()){

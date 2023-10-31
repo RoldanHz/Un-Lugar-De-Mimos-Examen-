@@ -24,11 +24,8 @@ class Cliente extends BaseController
 
     
     public function agregarcliente()  {
-
         $data['title']= "Agregar Cliente";
-
         $validation = \Config\Services::validation();
-
             if (strtolower($this->request->getMethod()) === 'get'){
                 //insertamos
                 return
@@ -44,14 +41,12 @@ class Cliente extends BaseController
                 'telefono' => 'required|max_length[40]',
                 'correo' => 'required|max_length[40]'
             ];
-
             if (! $this->validate($rules)) {
                 return 
                 view('UnLugarDeMimos/admin/common/headadmin', $data).
                 view('UnLugarDeMimos/admin/common/barraadmin').        
                 view('UnLugarDeMimos/admin/vistas/clientes/agregar', ['validation' => $validation]).
                 view('UnLugarDeMimos/admin/common/footeradmin');
-                
             }
             else {
                 if($this->insertar()){
