@@ -6,7 +6,7 @@
     }
     ?>
         <div class="col-8">
-            <h2>Agregar Especie</h2>
+            <h2>Editar Especie</h2>
             <form action="<?= base_url('UnLugarDeMimos/actespecie');?>" method="POST">
             <input type="hidden" name="id" value="<?= $especie->id_especie?>"/>
             <?= csrf_field() ?>

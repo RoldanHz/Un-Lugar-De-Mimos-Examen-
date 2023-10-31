@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row">
         <div class="col-8">
-            <h2>Agregar Clientes</h2>
+            <h2>Buscar Clientes</h2>
             <form action="<?= base_url('UnLugarDeMimos/admin/vistas/clientes/buscar'); ?>" method="GET">
                 <?= csrf_field() ?>
                 <div class="mb-3">

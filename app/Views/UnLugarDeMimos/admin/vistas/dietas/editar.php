@@ -6,7 +6,7 @@
     }
     ?>
         <div class="col-8">
-            <h2>Agregar Dietas</h2>
+            <h2>Editar Dietas</h2>
             <form action="<?= base_url('UnLugarDeMimos/actdieta');?>" method="POST">
             <input type="hidden" name="id" value="<?= $dieta->id_dieta?>"/>
             <?= csrf_field() ?>

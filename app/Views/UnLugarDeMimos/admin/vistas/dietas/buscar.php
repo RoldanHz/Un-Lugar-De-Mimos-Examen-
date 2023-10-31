@@ -6,7 +6,7 @@
     }
     ?>
         <div class="col-8">
-            <h2>Agregar Dietas</h2>
+            <h2>Buscar Dietas</h2>
             <form action="<?= base_url('UnLugarDeMimos/admin/vistas/dietas/buscar');?>" method="GET">
             <?= csrf_field() ?>
                 <div class="mb-3">

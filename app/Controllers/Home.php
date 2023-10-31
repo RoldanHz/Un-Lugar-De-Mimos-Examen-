@@ -8,6 +8,7 @@ class Home extends BaseController
     {
         return
         view('UnLugarDeMimos/common/head').
+        //view('UnLugardeMimos/common/barra').
         view('UnLugarDeMimos/login').
         view('UnLugarDeMimos/common/footer');
     }

@@ -6,7 +6,7 @@
     }
     ?>
         <div class="col-8">
-            <h2>Agregar Cuidados</h2>
+            <h2>Añadir Cuidados</h2>
             <form action="<?= base_url('UnLugarDeMimos/admin/vistas/cuidados/agregar');?>" method="POST">
             <?= csrf_field() ?>
                 <div class="mb-3">

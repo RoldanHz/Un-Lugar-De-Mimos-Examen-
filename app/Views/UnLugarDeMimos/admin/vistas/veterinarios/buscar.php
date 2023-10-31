@@ -6,7 +6,7 @@
     }
     ?>
         <div class="col-8">
-            <h2>Agregar Veterinarios</h2>
+            <h2>Buscar Veterinarios</h2>
             <form action="<?= base_url('UnLugarDeMimos/admin/vistas/veterinarios/buscar');?>" method="GET">
             <?= csrf_field() ?>
                 <div class="mb-3">

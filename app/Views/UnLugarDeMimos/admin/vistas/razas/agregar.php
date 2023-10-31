@@ -6,7 +6,7 @@
     }
     ?>
         <div class="col-8">
-            <h2>Agregar Raza</h2>
+            <h2>Añadir Raza</h2>
             <form action="<?= base_url('UnLugarDeMimos/admin/vistas/razas/agregar');?>" method="POST">
             <?= csrf_field() ?>
                 <div class="mb-3">

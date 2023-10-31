@@ -6,7 +6,7 @@
     }
     ?>
         <div class="col-8">
-            <h2>Agregar Especie</h2>
+            <h2>Añadir Especie</h2>
             <form action="<?= base_url('UnLugarDeMimos/admin/vistas/especies/agregar');?>" method="POST">
             <?= csrf_field() ?>
                 <div class="mb-3">

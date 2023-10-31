@@ -6,7 +6,7 @@
     }
     ?>
         <div class="col-8">
-            <h2>Agregar Cuidados</h2>
+            <h2>Editar Cuidados</h2>
             <form action="<?= base_url('UnLugarDeMimos/actcuidado');?>" method="POST">
             <input type="hidden" name="id" value="<?= $cuidado->id_cuidado?>"/>
             <?= csrf_field() ?>
